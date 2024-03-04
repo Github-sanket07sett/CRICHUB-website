@@ -17,10 +17,10 @@
     justify-content: space-evenly;
 }
 .logo{
-    background-image: url(" ");
+    background-image: url("");
     background-size:cover;
-    height:60px;
-    width: 100px
+    height:80px;
+    width: 90px;
 }
 .border{
     border:1.5px solid transparent;
@@ -94,7 +94,7 @@
     font-size: 30px;
 }
 .cart-first{
-    font-size: 1rem ;
+    font-size: 1rem;
     font-weight: bold;
     font-family: Arial;
     color:white;
@@ -112,13 +112,23 @@
 }
 .panel-ops p{
     display: inline;
-    font-size: 14px;
+    align-items: center;
+    font-size: 17px;
     margin-left:30px;
-    margin-right: 70px;
+    margin-right: 55px;
 }
+.panel-ops p:hover{
+    color:yellow;
+    opacity:1;
+    transition: opacity 0.12s;
+
+}
+.panel-ops p:active{
+    opacity:1;
+}
+
 .panel-ops{
-    width:60%;
-    font-size: 10px;
+    width:62%;
 }
 .panel-icon{
     display: flex;
@@ -128,9 +138,11 @@
     margin-right: 15px;
 }
 .hero-section{
-    background-image: url();
+    background-image: url("Untitled design (3).png");
     background-size: cover;
-    height: 600px;
+    height: 500px;
+    margin-left: 10PX;
+    margin-right: 10px;
 
 }
 .hero-msg{
@@ -138,6 +150,50 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40px;
+    height: 20px;
     color: black;
 }
+/** shop-section**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(141, 193, 238);
+}
+.box{
+   
+    height: 400px;
+    width:23%;
+    background-color: rgb(242, 244, 246);
+    padding: 5px;
+    padding-left: 3px;
+    padding-bottom: 2PX;
+    padding-right: 3px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.box:hover{
+    color: rgb(251, 103, 35);
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+.box:active{
+    opacity: 1;
+}
+.box-image{
+    HEIGHT: 350px;
+    background-size: cover;
+    
+}
+
+.box-image:hover{
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+.box-image:active{
+    opacity: 1;
+}
+.box-content{
+    margin-left: 10px;
+}
+    
