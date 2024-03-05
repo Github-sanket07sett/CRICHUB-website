@@ -19,8 +19,8 @@
 .logo{
     background-image: url("");
     background-size:cover;
-    height:80px;
-    width: 90px;
+    height: 30px;
+    width: 100px;
 }
 .border{
     border:1.5px solid transparent;
@@ -121,6 +121,7 @@
     color:yellow;
     opacity:1;
     transition: opacity 0.12s;
+    font-weight: bold;
 
 }
 .panel-ops p:active{
@@ -141,8 +142,7 @@
     background-image: url("Untitled design (3).png");
     background-size: cover;
     height: 500px;
-    margin-left: 10PX;
-    margin-right: 10px;
+   
 
 }
 .hero-msg{
@@ -196,4 +196,67 @@
 .box-content{
     margin-left: 10px;
 }
+/** footer **/
+
+.foot-panel{
+    background-color: blue;
+    color: white;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+
+.foot-panel2{
+    background-color: red;
+    font-size:25px;
+    color: white;
+    height: 175px;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.logo2{
+    background-image: url("CRIC HUB.png");
+    background-size:cover;
+    height:130px;
+    width: 125px;
+    margin-top: 12px;
+    border-radius: 15px;
+}
+p{
+    margin-top: 5px;
+
+}
+p:hover{
+    color: rgb(246, 246, 243);
+    opacity: 1;
+    transition: opacity 0.10s;
+    font-weight: bold;
+}
+p:active{
+    opacity:1;
+}
+ul{
+    margin-top: 5px;
+}
+ul a{
+    display:block;
+   font-size:15px;
+   margin-top: 5px;
+}
+
+ul a:hover{
+    color: rgb(251, 251, 35);
+    opacity: 1;
+    transition: opacity 0.10s;
+    font-weight: bold;
+}
+ul a:active{
+    opacity:1;
+}
+
+
     
