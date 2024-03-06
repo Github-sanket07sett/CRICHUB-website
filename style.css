@@ -5,11 +5,12 @@
 }
 
 .nav-logo{
-    height:50px;
-    width:100px;
+    height:60px;
+    width:80px;
+    border-radius: 2px;
 }
 .navbar{
-    height:60px;
+    height:70px;
     background-color: red;
     color:white;
     display: flex;
@@ -17,10 +18,10 @@
     justify-content: space-evenly;
 }
 .logo{
-    background-image: url("");
+    background-image: url("crichub (3).png");
     background-size:cover;
-    height: 30px;
-    width: 100px;
+    height: 60px;
+    width: 80px;
 }
 .border{
     border:1.5px solid transparent;
@@ -35,6 +36,7 @@
     font-family: Arial;
     color:white;
     margin-left:15px;
+    margin-right: 15px;
 
 }
 
@@ -93,6 +95,7 @@
     align-items: center;
     font-size: 30px;
 }
+
 .cart-first{
     font-size: 1rem;
     font-weight: bold;
@@ -122,6 +125,7 @@
     opacity:1;
     transition: opacity 0.12s;
     font-weight: bold;
+    text-shadow: black;
 
 }
 .panel-ops p:active{
@@ -136,10 +140,10 @@
     align-items: center;
     font-size: 20px;
     margin-left:  20px;
-    margin-right: 15px;
+    margin-right: 29px;
 }
 .hero-section{
-    background-image: url("Untitled design (3).png");
+    background-image: url("backgrounnd.png");
     background-size: cover;
     height: 500px;
    
@@ -169,13 +173,16 @@
     padding-left: 3px;
     padding-bottom: 2PX;
     padding-right: 3px;
-    margin-top: 10px;
+    margin-top: 9.5px;
     border-radius: 5px;
+   
 }
 .box:hover{
     color: rgb(251, 103, 35);
-    opacity: 1;
+    opacity: 0.9;
     transition: opacity 0.15s;
+    box-shadow: 5px 5px 10px rgb(19, 2, 71);
+   
 }
 .box:active{
     opacity: 1;
@@ -183,19 +190,22 @@
 .box-image{
     HEIGHT: 350px;
     background-size: cover;
-    
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: opacity 0.15s;
+
+
 }
 
 .box-image:hover{
-    opacity: 1;
+    opacity: 0.8;
     transition: opacity 0.15s;
 }
 .box-image:active{
-    opacity: 1;
+    opacity: 0.8;
 }
-.box-content{
-    margin-left: 10px;
-}
+
 /** footer **/
 
 .foot-panel{
@@ -206,6 +216,7 @@
     justify-content: center;
     align-items: center;
     font-size: 10px;
+   
 }
 
 
@@ -219,7 +230,7 @@
   
 }
 .logo2{
-    background-image: url("CRIC HUB.png");
+    background-image: url("crichub.png");
     background-size:cover;
     height:130px;
     width: 125px;
@@ -235,6 +246,8 @@ p:hover{
     opacity: 1;
     transition: opacity 0.10s;
     font-weight: bold;
+
+    
 }
 p:active{
     opacity:1;
@@ -253,10 +266,8 @@ ul a:hover{
     opacity: 1;
     transition: opacity 0.10s;
     font-weight: bold;
+    box-shadow: 5px 5px 15px rgb(19, 2, 71);
 }
 ul a:active{
     opacity:1;
 }
-
-
-    
