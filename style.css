@@ -32,7 +32,7 @@
 }
 
 .add-first{
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     font-family: Arial;
     color:white;
     margin-left:15px;
@@ -85,7 +85,7 @@
     color: black;
 }
 .signin{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: Arial;
     color:white;
     margin-left:15px;
@@ -94,10 +94,12 @@
     display: flex;
     align-items: center;
     font-size: 30px;
+    padding-left: 20px;
+   
 }
 
 .cart-first{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family: Arial;
     color:white;
@@ -113,6 +115,8 @@
    
    
 }
+
+
 .panel-ops p{
     display: inline;
     align-items: center;
@@ -121,7 +125,7 @@
     margin-right: 55px;
 }
 .panel-ops p:hover{
-    color:yellow;
+    color:rgb(252, 245, 249);
     opacity:1;
     transition: opacity 0.12s;
     font-weight: bold;
@@ -149,14 +153,7 @@
    
 
 }
-.hero-msg{
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20px;
-    color: black;
-}
+
 /** shop-section**/
 .shop-section{
     display: flex;
