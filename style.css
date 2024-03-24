@@ -178,7 +178,7 @@
     color: rgb(251, 103, 35);
     opacity: 0.9;
     transition: opacity 0.15s;
-   box-shadow: 5px 5px 10px rgb(10, 66, 221);
+   box-shadow: 5px 0px 10px rgb(10, 66, 221);
    cursor: pointer;
    
 }
