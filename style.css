@@ -112,7 +112,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-   
+  
    
 }
 
@@ -121,15 +121,16 @@
     display: inline;
     align-items: center;
     font-size: 17px;
-    margin-left:32px;
-    margin-right: 52px;
+    margin-left:54px;
+    margin-right: 35px;
+    
 }
 .panel-ops p:hover{
     color:rgb(252, 245, 249);
     opacity:1;
     transition: opacity 0.12s;
     font-weight: bold;
-    text-shadow: black;
+   
 
 }
 .panel-ops p:active{
@@ -137,20 +138,21 @@
 }
 
 .panel-ops{
-    width:62%;
+    width:65%;
 }
 .Contact-us{
     display: flex;
     align-items: center;
-    font-size: 20px;
-    margin-left:  20px;
+    font-size: 17px;
+    margin-left:  30px;
     margin-right: 60px;
+   
 }
 .hero-section{
-    background-image: url("backgrounnd.png");
+    background-image: url("ELEVATE YOUR GAME WITH CRICHUB (2).png");
     background-size: cover;
     height: 500px;
-   
+
 
 }
 
@@ -171,16 +173,16 @@
     padding-bottom: 2PX;
     padding-right: 3px;
     margin-top: 9.5px;
+    margin-right: 10px;
     border-radius: 5px;
    
 }
 .box:hover{
-    color: rgb(251, 103, 35);
+    color: rgb(250, 68, 1);
     opacity: 0.9;
     transition: opacity 0.15s;
-   box-shadow: 5px 0px 10px rgb(10, 66, 221);
+    box-shadow : 5px 0px 10px rgb(10, 66, 221);
    cursor: pointer;
-   
 }
 .box:active{
     opacity: 1;
@@ -192,14 +194,15 @@
     margin-left: 5px;
     margin-right: 5px;
     transition: opacity 0.15s;
-
-
+    
 }
 
 .box-image:hover{
     opacity: 0.8;
     transition: opacity 0.15s;
-    transform:scale(0.85);
+    transform: scale(0.85);
+ 
+   
 }
 .box-image:active{
     opacity: 0.8;
@@ -214,10 +217,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
-   
+    font-size: 15px;
+    
 }
-
 
 .foot-panel2{
     background-color: red;
@@ -241,11 +243,11 @@ p{
 
 }
 p:hover{
-    color: rgb(246, 246, 243);
+    color: rgb(251, 254, 254);
     opacity: 1;
     transition: opacity 0.10s;
     font-weight: bold;
-
+    
     
 }
 p:active{
@@ -265,7 +267,7 @@ ul a:hover{
     opacity: 1;
     transition: opacity 0.10s;
     font-weight: bold;
-    box-shadow: 0px 5px 15px rgb(19, 2, 71);
+    box-shadow : 0px 5px 15px rgb(19, 2, 71);
 }
 ul a:active{
     opacity:1;
