@@ -22,10 +22,12 @@
     background-size:cover;
     height: 60px;
     width: 80px;
+   
 }
 .border{
     border:1.5px solid transparent;
-    
+    margin-left: 5PX;
+    margin-right: 6PX;
 }
 .border:hover{
     border:1.5px solid white;
@@ -107,13 +109,17 @@
 }
 .panel{
     height:45px;
-    background-color: rgb(50, 13, 211);
-    color:white;
+    background-color: rgb(251, 252, 252);
+    color:rgb(18, 8, 8);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-  
-   
+}
+.panel-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 20px;
 }
 
 
@@ -121,12 +127,12 @@
     display: inline;
     align-items: center;
     font-size: 17px;
-    margin-left:54px;
-    margin-right: 35px;
+    margin-left:60px;
+    margin-right: 16px;
     
 }
 .panel-ops p:hover{
-    color:rgb(252, 245, 249);
+    color:rgb(8, 36, 245);
     opacity:1;
     transition: opacity 0.12s;
     font-weight: bold;
@@ -138,21 +144,53 @@
 }
 
 .panel-ops{
-    width:65%;
+    width:62%;
 }
 .Contact-us{
-    display: flex;
+    display: FLEX;
     align-items: center;
     font-size: 17px;
-    margin-left:  30px;
-    margin-right: 60px;
+    margin-left:  15px;
+    margin-right: 10px;
    
+}
+.Contact-us-icon{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+   
+   
+}
+.Contact-us-icon:hover{
+    color:rgb(8, 36, 245);
+    opacity:1;
+    transition: opacity 0.12s;
+    font-weight: bold;
+}
+.Contact-us-icon:active{
+    opacity: 1;
 }
 .ABOUT-Us{
     display: flex;
     align-items: center;
     font-size: 17px;
-    margin-right: 10px;
+    margin-left:  15px;
+    margin-right: 5px;
+
+}
+.ABOUT-Us-icon{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.ABOUT-Us-icon:hover{
+    color:rgb(8, 36, 245);
+    opacity:1;
+    transition: opacity 0.12s;
+    font-weight: bold;
+}
+.ABOUT-Us-icon:active{
+    opacity: 1;
 }
 .hero-section{
     background-image: url("ELEVATE YOUR GAME WITH CRICHUB (2).png");
