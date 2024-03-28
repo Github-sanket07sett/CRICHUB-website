@@ -95,17 +95,17 @@
 .cart-icon{
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 20px;
    
 }
 
 .cart-first{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     font-family: Arial;
     color:white;
-    margin-left:3px;
+    margin-left:8px;
 }
 .panel{
     height:45px;
@@ -157,7 +157,7 @@
 .Contact-us-icon{
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
    
    
 }
@@ -181,7 +181,7 @@
 .ABOUT-Us-icon{
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 .ABOUT-Us-icon:hover{
     color:rgb(8, 36, 245);
@@ -316,3 +316,4 @@ ul a:hover{
 ul a:active{
     opacity:1;
 }
+
