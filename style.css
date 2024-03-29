@@ -4,6 +4,8 @@
     border: border-box;
 }
 
+
+
 .nav-logo{
     height:60px;
     width:80px;
@@ -16,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+   
 }
 .logo{
     background-image: url("crichub (3).png");
@@ -69,6 +72,7 @@
     border-top-left-radius:3px ;
     border:none;
     margin-right: 0.9px;
+    padding-left: 2px;
 }
 .search-input{
     width:100%;
@@ -119,24 +123,29 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 20px;
+    padding: 0 20px;
 }
 
 
 .panel-ops p{
-    display: inline;
+    display: inline-block;
     align-items: center;
-    font-size: 17px;
-    margin-left:60px;
-    margin-right: 16px;
-    
+    font-size: 18px;
+    margin-left:45px;
+    margin-right: 7px;
+    padding-left: 10px;
+    padding-right: 7px;
+    transition: opacity 0.12s, background-color 0.12s, color 0.12s;
 }
 .panel-ops p:hover{
-    color:rgb(8, 36, 245);
+    color:rgb(9, 9, 9);
     opacity:1;
-    transition: opacity 0.12s;
-    font-weight: bold;
-   
+    transition: opacity 0.15s;
+    background-color: rgb(195, 247, 247);
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: rgb(0, 68, 255);
+    height: 40%;
 
 }
 .panel-ops p:active{
@@ -222,7 +231,7 @@
    
 }
 .box:hover{
-    color: rgb(250, 68, 1);
+    color: rgb(1, 30, 250);
     opacity: 0.9;
     transition: opacity 0.15s;
     box-shadow : 5px 0px 10px rgb(10, 66, 221);
@@ -291,7 +300,7 @@ p:hover{
     opacity: 1;
     transition: opacity 0.10s;
     font-weight: bold;
-    
+   
     
 }
 p:active{
@@ -304,6 +313,7 @@ ul a{
     display:block;
    font-size:15px;
    margin-top: 5px;
+  
 }
 
 ul a:hover{
