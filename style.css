@@ -128,24 +128,25 @@
 
 
 .panel-ops p{
-    display: inline-block;
+       display: inline-block;
     align-items: center;
     font-size: 18px;
     margin-left:45px;
     margin-right: 7px;
     padding-left: 10px;
     padding-right: 7px;
-    transition: opacity 0.12s, background-color 0.12s, color 0.12s;
+    transition:  background-color 0.3s, color 0.3s ease;
+    color:rgb(9, 9, 9);
 }
 .panel-ops p:hover{
-    color:rgb(9, 9, 9);
-    opacity:1;
-    transition: opacity 0.15s;
-    background-color: rgb(195, 247, 247);
-    border-radius: 10px;
-    border-style: ridge;
-    border-color: rgb(0, 68, 255);
-    height: 40%;
+     background-color: rgb(224, 228, 240);
+    color:rgb(12, 119, 226);
+    border-radius: 40px;
+    border-style:ridge;
+    border-width: 2%;
+    border-color: #c1b8b8;
+    font-weight: bold;
+    cursor: pointer;
 
 }
 .panel-ops p:active{
